@@ -30,7 +30,11 @@
     "scripts": {
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "php artisan optimize"
+            "php artisan optimize",
+            "sudo chmod -R 777 storage/",
+            "sudo chmod -R 777 bootstrap/cache/",
+            "cp .env.example .env",
+            "php artisan key:generate"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"
