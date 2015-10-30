@@ -150,6 +150,7 @@ return [
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
+        Sentinel\SentinelServiceProvider::class,
 
     ],
 
