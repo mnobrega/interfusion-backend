@@ -2,4 +2,8 @@
 /node_modules
 /.idea
 .env
-
+/public/css
+/public/fonts
+/public/js
+/resources/assets/less/vendor
+/resources/assets/js/vendor

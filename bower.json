@@ -1,0 +1,23 @@
+{
+  "name": "interfusion",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mnobrega/interfusion",
+  "authors": [
+    "Marcio Nobrega <marcio.nobrega@sapo.pt>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/bower_dl"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
