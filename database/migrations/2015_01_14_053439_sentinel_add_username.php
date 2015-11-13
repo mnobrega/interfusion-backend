@@ -13,9 +13,9 @@ class SentinelAddUsername extends Migration {
     public function up()
     {
         // Add the username to the users table
-        Schema::table('users', function($table)
+        Schema::table('users', function(Blueprint $table)
         {
-            $table->string('username')->nullable()->unique();
+            $table->string('username')->nullable()->unique()->after("id");
         });
     }
 
@@ -27,7 +27,7 @@ class SentinelAddUsername extends Migration {
     public function down()
     {
         // Remove username from the users table
-        Schema::table('users', function($table)
+        Schema::table('users', function(Blueprint $table)
         {
             $table->dropColumn('username');
         });
