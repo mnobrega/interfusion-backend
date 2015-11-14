@@ -105,7 +105,7 @@ return [
     |
     */
 
-    'routes_enabled' => true,
+    'routes_enabled' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -180,6 +180,6 @@ return [
     |
     */
 
-    'layout' => 'Sentinel::layouts.default',
+    'layout' => 'layouts.admin',
 
 ];
