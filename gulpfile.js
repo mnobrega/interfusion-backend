@@ -6,6 +6,8 @@ gulp.task("copyfiles",function(){
  gulp.src("vendor/bower_dl/bootstrap/less/**").pipe(gulp.dest("resources/assets/less/vendor/bootstrap/"));
  gulp.src("vendor/bower_dl/bootstrap/dist/js/bootstrap.js").pipe(gulp.dest("resources/assets/js/vendor/"));
  gulp.src("vendor/bower_dl/bootstrap/dist/fonts/**").pipe(gulp.dest("public/fonts/"));
+ gulp.src("vendor/bower_dl/html5shiv/dist/html5shiv.js").pipe(gulp.dest("public/js/"));
+ gulp.src("vendor/rydurham/sentinel/public/bootstrap/js/restfulizer.js").pipe(gulp.dest("resources/assets/js/vendor/"));
 });
 
 /*
@@ -22,9 +24,10 @@ gulp.task("copyfiles",function(){
 elixir(function(mix) {
     mix.scripts([
             'vendor/jquery.js',
-            'vendor/bootstrap.js'
+            'vendor/bootstrap.js',
+            'vendor/restfulizer.js'
         ],
-    'public/js/users.js','resources/assets/js');
+    'public/js/admin.js','resources/assets/js');
 
-    mix.less('users.less','public/css/users.css');
+    mix.less('admin.less','public/css/admin.css');
 });

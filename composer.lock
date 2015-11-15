@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd66ccd00d1941820f54dfe06882ab17",
+    "hash": "393ef86b452e80da4c74b8083956eff2",
     "content-hash": "282a637ca4eb78cd0874b038b7aad366",
     "packages": [
         {
@@ -539,32 +539,32 @@
         },
         {
             "name": "graham-campbell/manager",
-            "version": "v2.2.1",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-Manager.git",
-                "reference": "2fb1898f21107d94a30f4660e5147c5bad04c7b9"
+                "reference": "fd643e56c99cc80cd8019be1bbaeb4f4f66ebb8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Manager/zipball/2fb1898f21107d94a30f4660e5147c5bad04c7b9",
-                "reference": "2fb1898f21107d94a30f4660e5147c5bad04c7b9",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Manager/zipball/fd643e56c99cc80cd8019be1bbaeb4f4f66ebb8e",
+                "reference": "fd643e56c99cc80cd8019be1bbaeb4f4f66ebb8e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.0.*|5.1.*",
-                "illuminate/support": "5.0.*|5.1.*",
+                "illuminate/contracts": "5.1.*|5.2.*",
+                "illuminate/support": "5.1.*|5.2.*",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "graham-campbell/testbench-core": "~1.0",
+                "graham-campbell/testbench-core": "^1.1",
                 "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "~4.8|~5.0"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -594,7 +594,7 @@
                 "laravel",
                 "manager"
             ],
-            "time": "2015-10-06 16:53:10"
+            "time": "2015-11-14 11:41:39"
         },
         {
             "name": "hashids/hashids",
@@ -2311,34 +2311,34 @@
         },
         {
             "name": "vinkla/hashids",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vinkla/hashids.git",
-                "reference": "524843f5c287032573daef3273efaebdce96104f"
+                "reference": "69e1120c323e047cfda52cab28d3511d0e57f374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vinkla/hashids/zipball/524843f5c287032573daef3273efaebdce96104f",
-                "reference": "524843f5c287032573daef3273efaebdce96104f",
+                "url": "https://api.github.com/repos/vinkla/hashids/zipball/69e1120c323e047cfda52cab28d3511d0e57f374",
+                "reference": "69e1120c323e047cfda52cab28d3511d0e57f374",
                 "shasum": ""
             },
             "require": {
-                "graham-campbell/manager": "~2.2",
-                "hashids/hashids": "~1.0",
-                "illuminate/contracts": "5.0.*|5.1.*",
-                "illuminate/support": "5.0.*|5.1.*",
+                "graham-campbell/manager": "^2.3",
+                "hashids/hashids": "^1.0",
+                "illuminate/contracts": "5.1.* || 5.2.*",
+                "illuminate/support": "5.1.* || 5.2.*",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "graham-campbell/testbench": "~3.0",
+                "graham-campbell/testbench": "^3.1",
                 "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^4.8|^5.0"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -2369,7 +2369,7 @@
                 "obfuscate",
                 "youtube"
             ],
-            "time": "2015-10-07 06:22:42"
+            "time": "2015-11-14 18:50:28"
         },
         {
             "name": "vlucas/phpdotenv",

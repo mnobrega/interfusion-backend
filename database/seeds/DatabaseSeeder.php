@@ -14,6 +14,11 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
+        //Sentinel
+        $this->call('GroupSeeder');
+        $this->call('UserSeeder');
+        $this->call('UserGroupSeeder');
+
         Model::reguard();
     }
 }
