@@ -38,11 +38,9 @@
             "php artisan optimize",
             "sudo chmod -R 777 storage/",
             "sudo chmod -R 777 bootstrap/cache/",
-            "cp -n .env.example .env",
-            "php artisan key:generate"
+            "cp -n .env.example .env"
         ],
         "pre-update-cmd": [
-            "php artisan clear-compiled"
         ],
         "post-update-cmd": [
             "php artisan clear-compiled",
