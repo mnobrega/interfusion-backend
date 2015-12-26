@@ -34,11 +34,14 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "cp -n .env.example .env"
+            "php artisan key:generate",
+            "php -r \"copy('.env.example', '.env');\""
         ],
         "pre-update-cmd": [
+            "php artisan clear-compiled"
         ],
         "post-update-cmd": [
+            "php artisan optimize"
         ],
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
