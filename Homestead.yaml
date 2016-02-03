@@ -1,0 +1,23 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+hostname: iback
+name: iback
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "/home/mnobrega/workspace/iback"
+      to: "/home/vagrant/iback"
+
+sites:
+    - map: interfusion-backend.app
+      to: "/home/vagrant/iback/public"
+
+databases:
+    - interfusion
