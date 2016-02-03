@@ -12,7 +12,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/home/mnobrega/workspace/iback"
+    - map: "~/workspace/iback"
       to: "/home/vagrant/iback"
 
 sites:
