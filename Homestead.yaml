@@ -12,12 +12,12 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "~/workspace/iback"
-      to: "/home/vagrant/iback"
+    - map: "~/code/iback"
+      to: "/home/vagrant/code/iback"
 
 sites:
     - map: interfusion-backend.app
-      to: "/home/vagrant/iback/public"
+      to: "/home/vagrant/code/iback/public"
 
 databases:
     - interfusion
